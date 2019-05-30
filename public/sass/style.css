@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'open sans',sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style-type: none;
+  float: left; }
+
+.link {
+  color: #985f0d; }
+
+.link:hover {
+  color: #5cb85c; }
+
+.parallax {
+  background: url("../img/parallax.jpg") no-repeat fixed center;
+  height: 100%;
+  background-size: cover; }
+
+.headliner {
+  font-size: 60px;
+  color: black;
+  font-weight: bold; }
+
+.under-the-headline {
+  font-size: 18px;
+  color: whitesmoke; }
+
+.go-button {
+  background-color: #9b8a30;
+  border: 0px; }
+
+/*company*/
+#company-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  height: 100%;
+  margin: 30px 30px; }
+
+.company-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%; }
+
+.company-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.company-name {
+  font-size: 30px; }
+
+.info {
+  border: 1px solid black; }
+
+.company-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-top: 10px; }
+
+.btn-green {
+  border: 0px;
+  background-color: #67b168;
+  width: 150px;
+  height: 30px; }
+
+.btn-yellow {
+  border: 0px;
+  background-color: #ffc107;
+  width: 150px;
+  height: 30px; }
+
+.tab {
+  display: flex;
+  justify-content: space-around; }
+
+.tab-button {
+  border: 1px solid black;
+  background-color: #fafafa;
+  width: 70%;
+  height: 30px; }
+
+.tab-button:hover {
+  background-color: #e0e0e0; }
+
+.tab-button-selected {
+  border: 0px;
+  background-color: #7cb342;
+  width: 70%;
+  height: 30px; }
+
+.company-profile {
+  font-size: 25px; }
+
+.company-description-title {
+  font-size: 25px; }
+
+.company-description {
+  font-size: 15px; }
+
+.company-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.company-contact-title {
+  font-size: 20px; }
+
+.company-contact-data {
+  font-size: 18px;
+  margin-bottom: 20px; }
+
+/*search-list*/
+#search-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  height: 100%;
+  margin: 30px 30px; }
+
+#search-res {
+  display: flex;
+  flex-direction: row; }
+
+.search-title {
+  font-size: 30px; }
+
+#filter {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px; }
+
+#list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px; }
+
+.result {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px; }
+
+.not-logged-box {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e0e0e0; }
+
+.result:hover {
+  background-color: #e0e0e0; }
+
+.result-name {
+  font-size: 20px; }
+
+.result-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.result-det {
+  display: flex;
+  flex-direction: row; }
+
+.result-description {
+  width: 100%;
+  overflow: hidden; }
+
+.result-detail {
+  background-color: #bdbdbd; }
+
+.result-detail-text {
+  color: #039be5; }
+
+.pagination-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.loading {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  align-text: center; }
+
+.result-salary {
+  font-size: 24px;
+  color: #2a88bd; }
+
+.result-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.avg-salary {
+  display: flex;
+  flex-direction: column; }
+
+.avg-salary-title {
+  color: #8c8c8c; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 50px;
+  background: #4CAF50; }
+
+/*Settings*/
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black; }
+
+/*chats*/
+#chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1%; }
+
+.chat-message {
+  display: flex;
+  flex-direction: row; }
+
+.chatbox {
+  border: 1px solid black;
+  width: 60%; }
+
+.chats {
+  display: flex;
+  flex-direction: column; }
+
+.sender {
+  font-weight: bold; }
+
+#chat-list {
+  border: 1px solid black;
+  margin: 50px;
+  padding: 50px; }
+
+.user-list {
+  border: 1px solid black; }
+
+.rating-res {
+  display: flex;
+  flex-direction: column; }
+
+.result-rating-div {
+  display: flex;
+  justify-content: space-around; }
+
+/*# sourceMappingURL=style.css.map */
