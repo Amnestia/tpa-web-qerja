@@ -36,7 +36,7 @@ return [
     ],
 
     'firebase' => [
-        'api_key' => 'AIzaSyByAzf9EtR4u6mMHIVUt9dKdtxxMRGVVBI',
+        'api_key' => '',
         'auth_domain' => 'bs-tpa-web.firebaseapp.com',
         'database_url' => 'https://bs-tpa-web.firebaseio.com',
         'secret' => '',

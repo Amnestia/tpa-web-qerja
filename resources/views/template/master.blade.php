@@ -14,7 +14,7 @@
     <script>
         // Initialize Firebase
         var config = {
-            apiKey: "AIzaSyByAzf9EtR4u6mMHIVUt9dKdtxxMRGVVBI",
+            apiKey: "",
             authDomain: "bs-tpa-web.firebaseapp.com",
             databaseURL: "https://bs-tpa-web.firebaseio.com",
             projectId: "bs-tpa-web",
